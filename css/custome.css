@@ -1,3 +1,8 @@
 .field-name-paragraph-content img{
   width: 100%;
 }
+
+
+.widget-tags ul>li{
+  float: none;
+}
