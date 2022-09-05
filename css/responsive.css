@@ -1,6 +1,6 @@
 @media (min-width: 1200px) {
 .navbar-nav li:hover .utf_dropdown_menu {
-	display: block;	
+	display: block;
 }
 .navbar-nav li .utf_dropdown_menu {
 	width:102.8%;
@@ -84,7 +84,7 @@ ul.top-info li {
 	box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.1);
 }
 .navbar-collapse.collapse.show {
-	display: block;	
+	display: block;
 }
 ul.navbar-nav {
 	float: none !important;
@@ -250,7 +250,7 @@ ul.navbar-nav li a i,  .utf_dropdown_submenu>a:after {
 	top:12px;
 }
 .utf_main_nav_area.dark-bg ul.navbar-nav > li > a{
-	color:#ec0000
+	color:var(--main)
 }
 .utf_main_nav_area.dark-bg ul.navbar-nav > li > a:hover{
 	color:#ffffff
@@ -266,7 +266,7 @@ nav.navbar .utf_site_nav_inner ul.navbar-nav li.dropdown ul.utf_dropdown_menu::a
 	border-bottom: 13px solid transparent;
 }
 .utf_main_nav_area>.container>.row {
-	border-top: 3px solid #ec0000;
+	border-top: 3px solid var(--main);
 	border-bottom: 1px solid #dedede;
 	padding-left:10px;
 	padding-right:5px;
@@ -308,11 +308,11 @@ nav.navbar .utf_site_nav_inner ul.navbar-nav li.dropdown ul.utf_dropdown_menu::a
 }
 .footer {
     padding: 60px 0 30px 0;
-}	
+}
 .utf_post_title.title-extra-large {
     font-size: 22px;
     line-height: 30px;
-}	
+}
 .utf_post_title.title-medium {
     line-height: 22px;
     margin-bottom: 10px;
@@ -321,7 +321,7 @@ nav.navbar .utf_site_nav_inner ul.navbar-nav li.dropdown ul.utf_dropdown_menu::a
     padding: 20px;
 }
 .post-social-icons > li{
-	margin-bottom:5px;	
+	margin-bottom:5px;
 }
 .post-tags a{
 	margin-bottom:5px;
@@ -447,8 +447,8 @@ ul.navbar-nav li a i, .utf_dropdown_submenu>a:after {
 	text-align: center;
 }
 ul.navbar-nav li a i:hover {
-	background: #ec0000;
-	color: #ffffff;	
+	background: var(--main);
+	color: #ffffff;
 }
 .menu-tab .tab-content > .tab-pane .col-md-3 {
     padding-right: 3px;
@@ -528,7 +528,7 @@ ul.navbar-nav li a i:hover {
 	color: #333;
 }
 .utf_main_nav_area.dark-bg ul.navbar-nav li .utf_dropdown_menu .nav-tabs a.active, .utf_main_nav_area.dark-bg ul.navbar-nav li .utf_dropdown_menu .nav-tabs a:hover {
-	color: #ec0000;
+	color: var(--main);
 }
 .ts-date, .unstyled{
 	display:block;
@@ -540,7 +540,7 @@ ul.navbar-nav li a i:hover {
 	position: absolute;
 	top: 14px;
 	right: 23px;
-}	
+}
 .dark-bg .utf_nav_search {
 	top: 10px;
 	right: 23px;
@@ -663,7 +663,7 @@ ul.navbar-nav .video-icon i{
 @media (max-width: 639px) {
 .utf_featured_tab .nav-tabs{
 	display:none;
-}	
+}
 }
 
 @media (max-width: 479px) {
@@ -696,7 +696,7 @@ ul.navbar-nav .video-icon i{
 .utf_post_title {
     font-size: 16px;
     line-height: 22px;
-}	
+}
 .utf_post_overaly_style .utf_post_author a, .utf_featured_post .utf_post_author a {
     font-size: 12px;
 }
