@@ -2583,7 +2583,7 @@ ul.nav li.dropdown .utf_dropdown_menu li.utf_dropdown_submenu:hover .utf_dropdow
 	width:100%;
 }
 .post-navigation span:hover, .post-navigation h3:hover {
-	color: #EC0001;
+	color: var(--main);
 }
 .post-navigation .post-previous, .post-navigation .post-next {
 	padding: 0 40px;
