@@ -2870,7 +2870,7 @@ ul.nav li.dropdown .utf_dropdown_menu li.utf_dropdown_submenu:hover .utf_dropdow
 .sidebar .widget-tags ul>li a.active,
 .sidebar .widget-tags ul>li a:hover {
 	background: var(--main);
-	color: #fff;
+	color: #fff !important;
 	border: 1px solid transparent;
 }
 .utf_post_block_style.post-float.review-post-block {
