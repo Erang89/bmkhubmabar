@@ -2867,6 +2867,7 @@ ul.nav li.dropdown .utf_dropdown_menu li.utf_dropdown_submenu:hover .utf_dropdow
 	-o-transition: all 0.3s ease 0s;
 	transition: all 0.3s ease 0s;
 }
+.sidebar .widget-tags ul>li a.active,
 .sidebar .widget-tags ul>li a:hover {
 	background: var(--main);
 	color: #fff;
